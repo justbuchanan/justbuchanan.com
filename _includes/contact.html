@@ -1,20 +1,24 @@
-<section id="projects">
+<section id="contact">
 <div class="container">
-  <h3>Projects</h3>
+  <h3>Contact</h3>
   <div class="panel panel-default">
     <div class="panel-body">
 
+        <h5>Please feel free to contact me through this contact form or the social media links below.  I look forward to hearing from you!</h5>
+
+
         <form action="https://formspree.io/justbuchanan@gmail.com"
           method="POST">
-            <input type="text" name="name">
-            <input type="email" name="_replyto">
-            <input type="textarea" name="Your Message">
+            <input type="text" placeholder="Name" name="name">
+            <input type="email" placeholder="Email" name="_replyto">
+            <input type="textarea" placeholder="Your Message" name="Your Message">
             <input type="submit" value="Send">
-            <input type="text" name="_gotcha" style="display:none" /> <!-- spambot -->prevention?
+            <input type="text" name="_gotcha" style="display:none" /> <!-- spambot prevention? -->
         </form>
 
     </div>
   </div>
+  {% include social.html %}
 </div>
 </section>
 
