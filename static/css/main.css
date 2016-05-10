@@ -182,38 +182,3 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
-
-
-/* Contacts page
--------------------------------------------------- */
-
-#contact-area {
-  margin-top: 25px;
-  margin: auto;
-}
-
-#contact .panel-body {
-  width: 600px;
-  margin: auto;
-}
-
-#contact-area input, #contact-area textarea {
-  padding: 5px;
-  width: 100%;
-  font-size: 1.4em;
-  margin: 0px 0px 10px 0px;
-  border: 2px solid #ccc;
-}
-
-#contact-area textarea {
-  height: 150px;
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-  border: 2px solid;
-}
-
-#contact-area input.submit-button {
-  width: 100px;
-  margin: auto;
-}
