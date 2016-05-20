@@ -1,6 +1,8 @@
 FROM justbuchanan/docker-archlinux
 MAINTAINER Justin Buchanan <justbuchanan@gmail.com>
 
+RUN pacman -Sy
+
 RUN pacman -S --noconfirm base-devel ruby
 
 # ENV PATH $(ruby -e 'print Gem.user_dir')/bin:$PATH
