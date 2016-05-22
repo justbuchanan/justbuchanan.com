@@ -1,6 +1,10 @@
 FROM justbuchanan/docker-archlinux
 MAINTAINER Justin Buchanan <justbuchanan@gmail.com>
 
+# switch from https to http for mirror
+# TODO: switch back to https
+RUN sed -i 's/https/http/' /etc/pacman.d/mirrorlist
+
 RUN pacman -Sy
 
 RUN pacman -S --noconfirm base-devel ruby
