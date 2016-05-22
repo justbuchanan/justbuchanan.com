@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/justbuchanan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://justbuchanan.com
+  * I am justbuchanan (https://keybase.io/justbuchanan) on keybase.
+  * I have a public key ASD1L3Wi4J_PeKhF5_YV_X1V1B9Em2Sepm6HRtob8TqFRwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120f52f75a2e09fcf78a845e7f615fd7d55d41f449b649ea66e8746da1bf13a85470a",
+            "host": "keybase.io",
+            "kid": "0120f52f75a2e09fcf78a845e7f615fd7d55d41f449b649ea66e8746da1bf13a85470a",
+            "uid": "c33f6ad324dc5b59bd72a089e2e3ca19",
+            "username": "justbuchanan"
+        },
+        "service": {
+            "hostname": "justbuchanan.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1463935620,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1463935607,
+        "hash": "920381d2e9c2aee1850d3d484390434ad3c543b55ce95c1f2f22b944fd85ddce87e65755f2340966f496ddbf6ed48ef9d1bce7e930dda448e185cd8106965c1f",
+        "seqno": 468863
+    },
+    "prev": "d34e918ae44be1155cc168ac09762d143cfa5e63c9fcb42250445c8302afbc99",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9S91ouCfz3ioRef2Ff19VdQfRJtknqZuh0baG/E6hUcKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjUyZjc1YTJlMDlmY2Y3OGE4NDVlN2Y2MTVmZDdkNTVkNDFmNDQ5YjY0OWVhNjZlODc0NmRhMWJmMTNhODU0NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjUyZjc1YTJlMDlmY2Y3OGE4NDVlN2Y2MTVmZDdkNTVkNDFmNDQ5YjY0OWVhNjZlODc0NmRhMWJmMTNhODU0NzBhIiwidWlkIjoiYzMzZjZhZDMyNGRjNWI1OWJkNzJhMDg5ZTJlM2NhMTkiLCJ1c2VybmFtZSI6Imp1c3RidWNoYW5hbiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoianVzdGJ1Y2hhbmFuLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE1In0sImN0aW1lIjoxNDYzOTM1NjIwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjM5MzU2MDcsImhhc2giOiI5MjAzODFkMmU5YzJhZWUxODUwZDNkNDg0MzkwNDM0YWQzYzU0M2I1NWNlOTVjMWYyZjIyYjk0NGZkODVkZGNlODdlNjU3NTVmMjM0MDk2NmY0OTZkZGJmNmVkNDhlZjlkMWJjZTdlOTMwZGRhNDQ4ZTE4NWNkODEwNjk2NWMxZiIsInNlcW5vIjo0Njg4NjN9LCJwcmV2IjoiZDM0ZTkxOGFlNDRiZTExNTVjYzE2OGFjMDk3NjJkMTQzY2ZhNWU2M2M5ZmNiNDIyNTA0NDVjODMwMmFmYmM5OSIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED/dL9d2tD+uP/V4YsQq3N8Z0zV0dhmwwiQEAsqcMv6eUgf5RUksTdDWvAwXVjOlrTEZQe/gIPDWm6MScEFtS4GqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/justbuchanan
+
+==================================================================
