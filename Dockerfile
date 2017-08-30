@@ -9,8 +9,9 @@ RUN pacman -Sy
 
 RUN pacman -S --noconfirm base-devel ruby
 
+# TODO: don't hardcode ruby version
 # ENV PATH $(ruby -e 'print Gem.user_dir')/bin:$PATH
-ENV PATH /root/.gem/ruby/2.3.0/bin:$PATH
+ENV PATH /root/.gem/ruby/2.4.0/bin:$PATH
 
 RUN gem install jekyll pygments.rb rdiscount
 
