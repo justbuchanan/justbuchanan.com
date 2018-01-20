@@ -1,8 +1,7 @@
-FROM justbuchanan/docker-archlinux
+FROM base/archlinux
 MAINTAINER Justin Buchanan <justbuchanan@gmail.com>
 
-RUN pacman -Sy
-RUN pacman -S --noconfirm base-devel ruby
+RUN pacman -Sy --noconfirm base-devel ruby
 
 # TODO: don't hardcode ruby version
 # RUN ruby -e 'print Gem.user_dir'
