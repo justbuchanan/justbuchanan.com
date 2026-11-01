@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.Params.author }}">
+    <meta name="description" content="{{ site.Params.description }}">
+    <title>{{ block "title" . }}{{ site.Title }}{{ end }}</title>
+    {{ with resources.Get "css/main.css" | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+    {{- end }}
+  </head>
+  <body>
+    <div id="wrap">
+      {{ block "main" . }}{{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
