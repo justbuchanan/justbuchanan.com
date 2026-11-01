@@ -1,10 +1,16 @@
 # OS X
 .DS_Store
 
-# Jekyll build
-/_site/
-.jekyll-metadata
-Gemfile.lock
+# Hugo build
+/public/
+/resources/
+.hugo_build.lock
+
+# nix
+/result
+
+# direnv
+.direnv/
 
 # webstorm
 .idea/

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section id="about">
+  <div class="container">
+    <div class="avatar">
+      <img class="img-circle" src="/img/profile.jpg" width="276" height="276" alt="{{ site.Params.author }}">
+    </div>
+    <p>I'm <strong>{{ site.Params.author }}</strong>, a Roboticist and Software Engineer.</p>
+    <p>I love designing and building software projects and learning new technologies.</p>
+    <p>Contact me via <a href="mailto:{{ site.Params.email }}">email</a> or <a href="https://linkedin.com/in/{{ site.Params.linkedin }}">linkedin</a>.</p>
+    {{ partial "social.html" . }}
+  </div>
+</section>
+{{ end }}

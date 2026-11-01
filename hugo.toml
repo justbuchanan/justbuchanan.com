@@ -1,0 +1,13 @@
+baseURL = "https://justbuchanan.com/"
+languageCode = "en"
+title = "Justin Buchanan"
+disableKinds = ["RSS", "sitemap", "taxonomy", "term"]
+
+[params]
+author = "Justin Buchanan"
+description = "Justin Buchanan, a Roboticist and Software Engineer."
+email = "justbuchanan@gmail.com"
+github = "justbuchanan"
+linkedin = "jubuchanan"
+stackoverflow = "users/1455275/justin-buchanan"
+keybase = "justbuchanan"

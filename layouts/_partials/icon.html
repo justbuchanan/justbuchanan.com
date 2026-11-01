@@ -1,0 +1,2 @@
+{{- /* Font Awesome 4 glyphs, traced to SVG. Takes the name of a file in assets/icons. */ -}}
+{{- (resources.Get (printf "icons/%s.svg" .)).Content | strings.TrimSpace | safeHTML -}}

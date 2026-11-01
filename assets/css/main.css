@@ -1,0 +1,98 @@
+/* Page, with a sticky footer
+-------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-top: 3px solid #27A822;
+}
+body {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  padding-bottom: 50px;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+a {
+  color: #27A822;
+  text-decoration: none;
+}
+a:hover {
+  color: #267723;
+  text-decoration: underline;
+}
+.icon {
+  height: 1em;
+  /* Sit on the text baseline, as the icon font's descender did */
+  vertical-align: -0.143em;
+}
+
+/* Home page
+-------------------------------------------------- */
+
+.avatar {
+  padding-top: 5%;
+}
+.avatar img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#about p,
+.page-not-found p {
+  margin: 20px 0 10px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.social {
+  margin-bottom: 10px;
+  padding-top: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.1;
+  word-spacing: 25px;
+}
+.social a {
+  color: #000;
+}
+.social a:hover {
+  color: #267723;
+  text-decoration: none;
+}
+
+/* 404 page
+-------------------------------------------------- */
+
+.page-not-found {
+  padding-top: 20%;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.text-muted {
+  margin: 20px 0;
+  color: #6b6b6b;
+}
+div.footer {
+  border-bottom: 5px solid #27A822;
+}
