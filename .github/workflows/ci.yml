@@ -17,12 +17,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      id-token: write # magic-nix-cache
       packages: write
     steps:
       - uses: actions/checkout@v7
       - uses: DeterminateSystems/nix-installer-action@v23
       - uses: DeterminateSystems/magic-nix-cache-action@v15
+        with:
+          use-flakehub: false
       - run: nix build .#image
       - uses: docker/login-action@v4
         if: github.ref == 'refs/heads/master'
